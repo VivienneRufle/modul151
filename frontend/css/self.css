@@ -1,0 +1,210 @@
+.fMain {
+    margin-top: 40px;
+}
+
+.btn-newThread,
+.btn-newPost {
+    padding-bottom: 20px;
+    text-align: right;
+}
+
+.getSpan > span {
+    display: inline-block;
+}
+
+.getSpan > span.center {
+    text-align: center;
+}
+
+.getSpan > span.center img {
+    padding: 10px;
+}
+
+.avatar {
+    border-radius: 15% !important;
+}
+
+.getSpan > span.center > label {
+    display: inline-block;
+    text-align: center;
+    width: 60% !important;
+}
+
+.label-username {
+    background-color: #3498db;
+}
+
+.label-username:hover {
+    background-color: #2980b9;
+}
+
+.label-infos {
+    text-align: left !important;;
+    width: 60% !important;
+    background-color: #3498db;
+}
+
+.cMiddle {
+    border: 1px solid rgba(255, 255, 255, .15);
+    border-radius: 3px;
+    display: inline-block;
+    width: 100%;
+    min-height: 250px;
+    padding: 10px;
+}
+
+.message {
+    display: inline-block;
+    font-size: 13px;
+    word-wrap: normal;
+    word-spacing: 2px;
+}
+
+.postDate > label {
+    line-height: 12px !important;
+    font-size: 75% !important;
+    padding: 5px 20px !important;
+	display: inline !important;
+    width: 100% !important;
+}
+
+.postBtn {
+    text-align: right;
+}
+
+.panel-heading > span.headRight {
+    text-align: right;
+}
+
+.rank-administrator,
+.rank-benutzer,
+.rank-moderator {
+    margin-top: 10px !important;
+}
+
+.rank-administrator {
+    background-color: #e74c3c;
+}
+
+.rank-moderator {
+    background-color: #f39c12;
+}
+
+.rank-benutzer {
+    background-color: #95a5a6;
+}
+
+.pagination {
+    margin: 0;
+}
+
+/** newPost **/
+.input-small {
+    height: 26px;
+    padding: 3px 6px !important;
+    font-size: 14px !important;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, .6) !important;
+    font-weight: bold;
+}
+
+::-moz-placeholder,
+:-moz-placeholder {
+    color: rgba(0, 0, 0, .6) !important;
+    font-weight: bold;
+}
+
+:-ms-input-placeholder {
+    color: rgba(0, 0, 0, .6) !important;
+    font-weight: bold;
+}
+
+.textarea-message {
+    min-height: 200px;
+    height: 100%;
+}
+
+/** TinyMCE **/
+.mce-fullscreen {
+    top: 40px !important;
+}
+
+/** TagsInput **/
+.bootstrap-tagsinput {
+    width: 100% !important;
+    margin-top: 10px;
+}
+
+.getlink,
+.getlink:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.getlink:hover,
+.getlink:focus {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.author {
+	display: inline-block;
+}
+
+.checkboxes {
+    width: 155px;
+    height: 25px;
+    position: relative;
+    margin: -5px 0px -15px 0px !important;
+}
+
+.checkboxes p {
+    font-size: 12px;
+    margin-left: 0 !important;
+}
+
+.checkboxes label {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: -webkit-linear-gradient(top, #485563 0%, #4e5d6c 100%);
+    background: linear-gradient(to bottom, #485563 0%, #4e5d6c 100%);
+    border-radius: 4px;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
+    -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
+}
+
+.checkboxes label:after {
+    content: '';
+    width: 12px;
+    height: 8px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border: 3px solid #fcfff4;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    opacity: 0;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.checkboxes label:hover::after {
+    opacity: 0.3;
+}
+
+.checkboxes input[type=checkbox] {
+    visibility: hidden;
+}
+
+.checkboxes input[type=checkbox]:checked + label:after {
+    opacity: 1;
+}
